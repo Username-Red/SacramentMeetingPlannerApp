@@ -36,12 +36,12 @@ main a {
     /*outline: solid black 1px;*/
     padding-left: 3px;
     padding-right: 3px;
-    border-radius: 10px;
 }
 
 a {
     color: black;
     text-decoration: none;
+    border-radius: 10px;
 }
 
 a:visited {
@@ -51,7 +51,8 @@ a:visited {
 
 a:hover {
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: lightcyan;
+    background-color: lightgreen;
 }
 
 a:focus {
