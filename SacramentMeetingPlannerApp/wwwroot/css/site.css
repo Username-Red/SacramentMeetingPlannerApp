@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap');
+
 html {
+    font-family: "Rajdhani", sans-serif;
   font-size: 14px;
 }
 
@@ -18,5 +21,49 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    font-family: "Rajdhani", sans-serif;
+    margin-bottom: 60px;
+}
+
+
+tr:nth-child(odd) {
+    background-color: lightcyan;
+}
+
+main a {
+    color: white;
+    background-color: lightsalmon;
+    /*outline: solid black 1px;*/
+    padding-left: 3px;
+    padding-right: 3px;
+    border-radius: 10px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:focus {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    color: rgb(255, 255, 255)
+}
+
+.nav{
+    color: lightcoral;
 }
